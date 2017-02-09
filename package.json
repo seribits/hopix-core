@@ -1,0 +1,30 @@
+{
+  "name": "core",
+  "version": "0.1.0",
+  "description": "CMS for the hopix project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_PATH=./ node index.js",
+    "dev": "NODE_PATH=./ nodemon -L --debug index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-routes-versioning": "^0.3.0",
+    "jsonwebtoken": "^7.1.9",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "request": "^2.76.0",
+    "sequelize": "^3.24.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "nodemon": "^1.11.0",
+    "sequelize-cli": "^2.4.0",
+    "standard": "^8.4.0"
+  }
+}

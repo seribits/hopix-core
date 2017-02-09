@@ -1,0 +1,7 @@
+node_modules/
+migrations/
+seeders/
+
+envs/core_db_secrets.env
+envs/core_pg_secrets.env
+envs/core_secrets.env
